@@ -1,0 +1,42 @@
+#juego {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 600px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: repeat(6, auto);
+}
+
+.cuadrado {
+  width: 60px;
+  height: 60px;
+  border: 2px solid black;
+  margin: 4px;
+  color: white;
+  text-transform: uppercase;
+  display: grid;
+  place-items: center;
+  font-family: Arial;
+  font-size: 20;
+}
+
+.cuadrado.vacio {
+  background-color: gray;
+}
+
+.cuadrado.mal {
+  background-color: yellow;
+}
+
+.cuadrado.bien {
+  background-color: green;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
