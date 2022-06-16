@@ -53,7 +53,7 @@ function dibujarGrid(contenedor) {
 
 function inicio() {
   const juego = document.getElementById('juego');
-  dibujarGrid(game);
+  dibujarGrid(juego);
 
   registerKeyboardEvents();
 }
