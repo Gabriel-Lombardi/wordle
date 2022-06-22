@@ -54,6 +54,7 @@ function handleChange(e) {
     }
   }
   wordle.appendChild(fila)
+  if (palabraCorrecta == intento) document.getElementById('ganaste').style.display = 'block';
 }
 
 // reiniciar formulario
