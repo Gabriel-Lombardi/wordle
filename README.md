@@ -3,8 +3,8 @@ Prueba del 15/6/2022 de Proyecto Informático I de 4º4º
 
 ## Integrantes
 
-Gabriel Lombardi
 Valentín Antezana
+Gabriel Lombardi
 
 ## Instrucciones
 
