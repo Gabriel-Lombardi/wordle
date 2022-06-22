@@ -1,0 +1,35 @@
+#juego {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 600px;
+}
+
+#intento {
+  text-align: center;
+  margin-left: 43%;
+}
+
+.cuadrado {
+  width: 60px;
+  height: 60px;
+  border: 2px solid black;
+  margin: 4px;
+  color: white;
+  text-transform: uppercase;
+  display: grid;
+  place-items: center;
+  font-family: Arial;
+  font-size: 20;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: monospace;
+}
+
+#reset {
+  margin-left: 48%;
+  font-family: arial;
+}

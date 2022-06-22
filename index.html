@@ -6,7 +6,25 @@
     <title>Wordle</title>
   </head>
   <body>
-    <!-- solucion     -->
+    <h1>Wordle</h1>
+    <input type="text" id="intento" name="adivinanza" maxlength="5" minlength="5" onchange="handleChange(event)">
+    <br>
+    <br>
+    <button type="button" id="reset" onclick="handleReset(event)" name="reset">Reiniciar</button>
+    <div id="juego">
+
+    </div>
+    <div id="ganaste">
+
+    </div>
+    <div id="termino">
+      
+    </div>
+    <!-- <div id="juego">
+      <div class="grid">
+        <div class="cuadrado"></div>
+      </div>
+    </div> -->
     <script src="main.js" charset="utf-8"></script>
   </body>
 </html>
